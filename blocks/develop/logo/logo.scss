@@ -1,0 +1,36 @@
+.logo {
+    position: relative;
+    width: 435px;
+    height: 370px;
+
+    &__box-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 402px;
+        height: 340px;
+        border: 5px solid rgba($color: #fff, $alpha: 0.3);
+    }
+
+    &__box-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 402px;
+        height: 342px;
+        border: 5px solid rgba($color: #fff, $alpha: 0.3);
+    }
+
+    &__text {
+        width: 210px;
+        position: absolute;
+        top: 45px;
+        left: 105px;
+
+        font-family: 'edosz', sans-serif;
+        font-size: 72px;
+        color: $colorPurple;
+        text-align: center;
+        line-height: 85px;
+    }
+}

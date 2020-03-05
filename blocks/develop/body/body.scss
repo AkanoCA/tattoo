@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'Romul';
+    src: url('fonts/Romul.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'edosz';
+    src: url('fonts/edosz.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.body {
+    margin: 0;
+    font-family: 'Romul' ,serif;
+    font-size: 16px;
+    background-color: #060606;
+
+    
+}

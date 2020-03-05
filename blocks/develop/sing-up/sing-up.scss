@@ -1,0 +1,51 @@
+.sing-up {
+
+	&_pos {
+		position: absolute;
+		top: 420px;
+		left: 65px;
+	}
+
+	&__text {
+		position: absolute;
+		margin: 0;
+		width: 17.875em;
+		font-size: 22 / 16 + em;
+		color: $colorPurple;
+		line-height: 1.7em;
+
+		&_capital {
+			font-size: 30 / 22 + em;
+		}
+
+		&_accent {
+			font-size: 36 / 22 + em;
+		}
+	}
+
+	&__button {
+		position: absolute;
+        top: 156px;
+        left: -10px;
+		height: 86px;
+		width: 314px;
+
+		font-family: Romul, sans-serif;
+		font-size: 30px;
+        color: #060606;
+        letter-spacing: 0.02em;
+
+		background: rgba(149, 130, 191, 1);
+		background: -moz-linear-gradient(top, rgba(149, 130, 191, 1) 0%, rgba(160, 145, 194, 1) 33%, rgba(203, 211, 215, 1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(149, 130, 191, 1)), color-stop(33%, rgba(160, 145, 194, 1)), color-stop(100%, rgba(203, 211, 215, 1)));
+		background: -webkit-linear-gradient(top, rgba(149, 130, 191, 1) 0%, rgba(160, 145, 194, 1) 33%, rgba(203, 211, 215, 1) 100%);
+		background: -o-linear-gradient(top, rgba(149, 130, 191, 1) 0%, rgba(160, 145, 194, 1) 33%, rgba(203, 211, 215, 1) 100%);
+		background: -ms-linear-gradient(top, rgba(149, 130, 191, 1) 0%, rgba(160, 145, 194, 1) 33%, rgba(203, 211, 215, 1) 100%);
+		background: linear-gradient(to bottom, rgba(149, 130, 191, 1) 0%, rgba(160, 145, 194, 1) 33%, rgba(203, 211, 215, 1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9582bf', endColorstr='#cbd3d7', GradientType=0);
+		box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.79);
+        border: none;
+        
+        cursor: pointer;
+	}
+}
