@@ -1,0 +1,10 @@
+.title {
+    text-align: center;
+    font-size: 30 / 16 + em;
+    color: $colorWhite;
+    letter-spacing: 0.035em;
+
+    &_pos {
+        padding-top: 118px;
+    }
+}
