@@ -1,0 +1,49 @@
+.frame {
+    
+    width: 67.2vw;
+    height: 37vw;
+
+    &_pos {
+        position: absolute;
+    
+        left: 50%;
+        margin-top: 5.85%;
+
+        transform: translate(-49.4%, 0%);
+    }
+
+    &__box-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 96%;
+        height: 94.4%;
+
+        border: 5px solid rgba($color: #fff, $alpha: 0.3);
+        z-index: 2;
+    }
+
+    &__box-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        width: 96%;
+        height: 94.4%;
+
+        border: 5px solid rgba($color: #fff, $alpha: 0.3);
+        z-index: 2;
+    }
+
+    &__content {
+        position: absolute;
+        top: 4.6%;
+        left: 3.5%;
+        width: 93%;
+        height: 90.7%;
+
+        background-color: $frameBG;
+
+    }
+}

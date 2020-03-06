@@ -2,10 +2,21 @@
     position: relative;
     width: 100%;
     height: 87.7vh;
+    
 
     &__wrap {
         position: absolute;
-        top: 14.6%;
-        left: 39.5%;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+
+        transform: translate(-46%, -91.5%);
+
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none;   /* Chrome/Safari/Opera */
+        -khtml-user-select: none;    /* Konqueror */
+        -moz-user-select: none;      /* Firefox */
+        -ms-user-select: none;       /* Internet Explorer/Edge */
+        user-select: none;    
     }
 }

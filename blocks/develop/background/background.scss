@@ -6,4 +6,9 @@
 
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+
+    &__img {
+        height: 67vh;
+    }
 }

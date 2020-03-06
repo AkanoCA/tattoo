@@ -2,12 +2,11 @@
 
 	&_pos {
 		position: absolute;
-		top: 420px;
+		margin-top: 11%;
 		left: 65px;
 	}
 
 	&__text {
-		position: absolute;
 		margin: 0;
 		width: 17.875em;
 		font-size: 22 / 16 + em;
@@ -25,7 +24,7 @@
 
 	&__button {
 		position: absolute;
-        top: 156px;
+		margin-top: 10%;
         left: -10px;
 		height: 86px;
 		width: 314px;
@@ -34,6 +33,7 @@
 		font-size: 30px;
         color: #060606;
         letter-spacing: 0.02em;
+        cursor: pointer;
 
 		background: rgba(149, 130, 191, 1);
 		background: -moz-linear-gradient(top, rgba(149, 130, 191, 1) 0%, rgba(160, 145, 194, 1) 33%, rgba(203, 211, 215, 1) 100%);
@@ -46,6 +46,6 @@
 		box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.79);
         border: none;
         
-        cursor: pointer;
+        
 	}
 }

@@ -55,12 +55,13 @@
         width: 83%;
         height: 71%;
 
-        font-size: 20px;
+        font-size: 20 / 16 + em;
         color: $colorPurple;
         line-height: 1.8em;
+        letter-spacing: 0.06em;
         
-        padding-top: 7.3%;
-        padding-left: 6.5%;
+        padding-top: 1.75em;
+        padding-left: 1.75em;
         background-color: #0d0d0d;
 
         z-index: 1;
